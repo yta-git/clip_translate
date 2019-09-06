@@ -4,7 +4,6 @@
 python3  
 `pip install pyperclip`  
 `pip install googletrans`
-python3  
 
 ## 使い方
 1. `python3 clip_translate.py`
