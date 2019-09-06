@@ -1,6 +1,5 @@
 import pyperclip
 from googletrans import Translator
-from sys import argv, exit
 
 src = 'en'
 dest = 'ja'
