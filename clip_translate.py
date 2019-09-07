@@ -6,6 +6,8 @@ dest = 'ja'
 trans = Translator(['translate.google.co.jp' ,'translate.google.com'])
 
 old = ''
+pyperclip.copy('')
+
 while True:
     query = pyperclip.paste().replace('\n', '')
     if old != query:        
