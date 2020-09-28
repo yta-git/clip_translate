@@ -13,6 +13,7 @@ while True:
     if old != query:        
         try:
             print(trans.translate(query, src=src, dest=dest).text)
+            print()
         except:
             print('error')
     old = query
