@@ -9,11 +9,11 @@ old = ''
 pyperclip.copy('')
 
 while True:
-    query = pyperclip.paste().replace('\n', '')
-    if old != query:        
-        try:
+    try:
+        query = pyperclip.paste().replace('\n', '')    
+        if old != query:        
             print(trans.translate(query, src=src, dest=dest).text)
             print()
-        except:
-            print('error')
+    except:
+        print('error')
     old = query
